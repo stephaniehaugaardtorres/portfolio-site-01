@@ -45,6 +45,16 @@ function App() {
               React • JavaScript • CSS • Geolocation API
             </p>
 
+            <div className="project-links">
+              <a
+              href="https://github.com/stephaniehaugaardtorres/clock-payroll"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+              >
+                View Code
+              </a>
+            </div>
           </div>
 
           <div className="project-card">
@@ -58,6 +68,17 @@ function App() {
             <p className="tech-stack">
               React • JavaScript • Vite • LocalStorage
             </p>
+
+            <div className="project-links">
+              <a
+                href="https://github.com/stephaniehaugaardtorres/job-application-tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+                >
+                  View Code
+                </a>
+            </div>
           </div>
         </div>
       </section>
@@ -99,7 +120,7 @@ function App() {
         
         <div className="contact-links">
           <a
-            href="https://github.com/YOUR-GITHUB-USERNAME"
+            href="https://github.com/stephaniehaugaardtorres"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn"
