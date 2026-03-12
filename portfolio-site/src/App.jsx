@@ -5,7 +5,9 @@ function App() {
     <main className="site-shell">
 
       <nav className="navbar">
-        <h2 className="logo">Stephanie Haugaard</h2>
+        <h2 className="logo">
+          <a href="#home">Stephanie Haugaard</a>
+          </h2>
 
         <div className="nav-links">
           <a href="#projects">Projects</a>
@@ -15,7 +17,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="hero">
+      <section id="home" className="hero">
         <p className="eyebrow">Frontend Developer Portfolio</p>
         <h1>Nicole Stephanie Haugaard Torres</h1>
         <p className="hero-copy">
@@ -107,6 +109,8 @@ function App() {
           <div className="skill-card">GitHub</div>
           <div className="skill-card">Vite</div>
           <div className="skill-card">Responsive Design</div>
+          <div className="skill-card">LocalStorage</div>
+          <div className="skill-card">UI Design</div>
         </div>
       </section>
 
@@ -115,7 +119,7 @@ function App() {
 
         <p className="contact-copy">
           I'm currently seeking frontend developer opportunities.
-          Feel free to reach out or view my work below.
+          Feel free to reach out or explore my work below.
         </p>
         
         <div className="contact-links">
@@ -125,7 +129,7 @@ function App() {
             rel="noopener noreferrer"
             className="contact-btn"
             >
-              Github
+              GitHub
             </a>
 
             <a
