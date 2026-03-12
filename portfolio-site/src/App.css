@@ -26,7 +26,7 @@ body {
 }
 
 .site-shell {
-  width: min(120px, calc(100% - 48px));
+  width: min(1200px, calc(100% - 48px));
   margin: 0 auto;
   padding: 48px 0 80px;
 }
@@ -116,7 +116,7 @@ body {
   }
 }
 
-.projects-sectopm {
+.projects-section {
   margin-top: 120px;
 }
 
@@ -152,4 +152,117 @@ body {
   margin-top: 14px;
   font-size: 0.9rem;
   color: #94a3b8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e2e8f0;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+.about-section {
+  margin-top: 120px;
+}
+
+.about-copy {
+  max-width: 850px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 18px;
+}
+
+.skills-section {
+  margin-top: 120px;
+}
+
+.skills-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 32px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.skill-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(148,163,184,0.15);
+  padding: 18px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  transition: transform 0.15s ease, border 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border: 1px solid rgba(148,163,184,0.35);
+}
+
+.contact-section {
+  margin-top: 120px;
+}
+
+.contact-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.contact-copy {
+  max-width: 640px;
+  line-height: 1.7;
+  color: #cbd5e1;
+  margin-bottom: 28px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  padding: 14px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+}
+
+.secondary-contact {
+  background: transparent;
+  border: 1px solid rgba(148,163,184,0.35);
+  color: #e2e8f0;
 }
