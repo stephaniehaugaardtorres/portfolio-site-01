@@ -49,15 +49,24 @@ function App() {
 
             <div className="project-links">
               <a
-              href="https://github.com/stephaniehaugaardtorres/clock-payroll"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-btn"
+                href="https://github.com/stephaniehaugaardtorres/clock-payroll"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
               >
-                View Code
+               View Code
               </a>
-            </div>
-          </div>
+
+              <a
+                href="https://clock-payroll.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+              >
+                Live Demo
+              </a>
+              </div>
+              </div>
 
           <div className="project-card">
 
@@ -71,16 +80,25 @@ function App() {
               React • JavaScript • Vite • LocalStorage
             </p>
 
-            <div className="project-links">
-              <a
-                href="https://github.com/stephaniehaugaardtorres/job-application-tracker"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-btn"
-                >
-                  View Code
-                </a>
-            </div>
+           <div className="project-links">
+             <a
+              href="https://github.com/stephaniehaugaardtorres/job-application-tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+             >
+            View Code
+            </a>
+
+            <a
+            href="https://job-application-tracker-gilt-two.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-btn"
+            >
+            Live Demo
+            </a>
+           </div>
           </div>
         </div>
       </section>
